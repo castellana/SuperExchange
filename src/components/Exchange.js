@@ -87,7 +87,7 @@ class CurrencyExchange extends Component {
                                             // console.log(element.symbol === currency)
                                             if (element.symbol === currency) {
                                                 return element.currency_name
-                                            } 
+                                            } return false
                                         })
                                     }
                                     </option>  )};
@@ -113,7 +113,7 @@ class CurrencyExchange extends Component {
                                                 // console.log(element.symbol === currency)
                                                 if (element.symbol === currency) {
                                                     return element.currency_name
-                                                } 
+                                                } return false
                                             })
                                             }
                                     </option>  )};
